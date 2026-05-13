@@ -10,21 +10,9 @@ A financial tracking web app that lets you follow real-time prices for stocks an
 - **Saved** (`/saved`) — persistent watchlist stored in the browser; add or remove assets from any detail page
 - **Dark mode** — toggle in the header, preference is remembered
 
-## Tech stack
-
-- [React Router v7](https://reactrouter.com/) — routing and SSR-ready loaders
-- [Tailwind CSS v4](https://tailwindcss.com/) — styling
-- [shadcn/ui](https://ui.shadcn.com/) — UI components (Table, Button, Switch)
-- [Nanostores](https://github.com/nanostores/nanostores) — lightweight global state for the watchlist
-- [Finnhub API](https://finnhub.io/) — real-time stock and crypto data
-- [Axios](https://axios-http.com/) — HTTP client
 
 ## Getting started
 
-### Prerequisites
-
-- Node.js 18 or later
-- npm
 
 ### Installation
 
@@ -40,18 +28,6 @@ npm run dev
 
 The app will be available at [http://localhost:5173](http://localhost:5173).
 
-### Build for production
-
-```bash
-npm run build
-npm run start
-```
-
-### Type checking
-
-```bash
-npm run typecheck
-```
 
 ## Project structure
 
